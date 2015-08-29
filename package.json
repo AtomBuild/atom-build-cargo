@@ -1,0 +1,33 @@
+{
+  "name": "build-cargo",
+  "version": "0.1.0",
+  "description": "Runs Cargo targets",
+  "repository": "https://github.com/noseglid/atom-build-cargo",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.50.0"
+  },
+  "providedServices": {
+    "builder": {
+      "description": "Runs Cargo targets",
+      "versions": {
+        "1.0.0": "provideBuilder"
+      }
+    }
+  },
+  "devDependencies": {
+    "jshint": "^2.5.11",
+    "jscs": "^1.9.0"
+  },
+  "scripts": {
+    "test": "jscs lib/*.js && jshint lib/*.js"
+  },
+  "keywords": [
+    "build",
+    "compile",
+    "cargo",
+    "productivity"
+  ],
+
+  "main": "lib/cargo.js"
+}
