@@ -5,7 +5,7 @@
   "repository": "https://github.com/noseglid/atom-build-cargo",
   "license": "MIT",
   "engines": {
-    "atom": ">=0.50.0"
+    "atom": "^1.0.0"
   },
   "providedServices": {
     "builder": {
