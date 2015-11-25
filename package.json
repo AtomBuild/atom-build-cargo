@@ -2,7 +2,7 @@
   "name": "build-cargo",
   "version": "0.6.0",
   "description": "Runs Cargo targets",
-  "repository": "https://github.com/noseglid/atom-build-cargo",
+  "repository": "https://github.com/AtomBuild/atom-build-cargo",
   "license": "MIT",
   "engines": {
     "atom": "^1.0.0"
