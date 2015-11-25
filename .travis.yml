@@ -17,9 +17,9 @@ env:
 
 before_script:
   - npm install
-  - npm test
 
-script: 'curl -s https://raw.githubusercontent.com/atom/ci/master/build-package.sh | sh'
+script:
+  - npm test
 
 git:
   depth: 10
