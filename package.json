@@ -1,6 +1,6 @@
 {
   "name": "build-cargo",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "Runs Cargo targets",
   "repository": "https://github.com/AtomBuild/atom-build-cargo",
   "license": "MIT",
