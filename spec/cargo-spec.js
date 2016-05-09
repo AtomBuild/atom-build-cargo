@@ -17,7 +17,7 @@ describe('cargo', () => {
       return vouch(temp.mkdir, 'atom-build-make-spec-')
         .then((dir) => vouch(fs.realpath, dir))
         .then((dir) => (directory = `${dir}/`))
-        .then((dir) => builder = new Builder(dir));
+        .then((dir) => (builder = new Builder(dir)));
     });
   });
 
@@ -28,7 +28,7 @@ describe('cargo', () => {
   describe('when Cargo.toml exists', () => {
     beforeEach(() => {
       fs.writeFileSync(directory + 'Cargo.toml', fs.readFileSync(`${__dirname}/Cargo.toml`));
-      atom.config.set('build-cargo.cargoPath', '/this/is/just/a/dummy/path/cargo')
+      atom.config.set('build-cargo.cargoPath', '/this/is/just/a/dummy/path/cargo');
     });
 
     it('should be eligible', () => {
@@ -56,11 +56,11 @@ describe('cargo', () => {
     });
 
     it('should not contain clippy in the set of commands if it is disabled', () => {
-      atom.config.set('build-cargo.cargoClippy', false)
+      atom.config.set('build-cargo.cargoClippy', false);
       waitsForPromise(() => {
         expect(builder.isEligible(directory)).toBe(true);
         return Promise.resolve(builder.settings(directory)).then((settings) => {
-          settings.forEach(s => expect(s.name.toLowerCase().indexOf("clippy")).toEqual(-1));
+          settings.forEach(s => expect(s.name.toLowerCase().indexOf('clippy')).toEqual(-1));
         });
       });
     });
