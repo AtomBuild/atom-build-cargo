@@ -1,0 +1,4 @@
+[package]
+name = "saippuakkauppias"
+version = "0.1.0"
+authors = ["Cthulu <tentacles@deep.down>"]
