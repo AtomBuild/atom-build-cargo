@@ -38,7 +38,7 @@ describe('cargo', () => {
     it('should yield available targets', () => {
       waitsForPromise(() => {
         return Promise.resolve(builder.settings(directory)).then((settings) => {
-          expect(settings.length).toBe(11); // change this when you change the default settings
+          expect(settings.length).toBe(12); // change this when you change the default settings
 
           const defaultTarget = settings[0]; // default MUST be first
           expect(defaultTarget.name).toBe('Cargo: build (debug)');
