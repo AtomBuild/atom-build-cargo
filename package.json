@@ -16,9 +16,12 @@
     }
   },
   "devDependencies": {
-    "babel-eslint": "^4.1.5",
-    "eslint": "^1.10.1",
-    "eslint-config-atom-build": "^1.0.0"
+    "babel-eslint": "^6.0.0",
+    "eslint": "^2.5.3",
+    "eslint-config-atom-build": "^3.0.0",
+    "atom-build-spec-helpers": "^0.4.0",
+    "fs-extra": "^0.26.7",
+    "temp": "^0.8.1"
   },
   "keywords": [
     "build",
