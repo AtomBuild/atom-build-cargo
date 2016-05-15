@@ -12,14 +12,10 @@ notifications:
     on_failure: always
     on_start: false
 
-env:
-  - APM_TEST_PACKAGES=build
-
 before_script:
   - npm install
 
-script:
-  - npm test
+script: 'curl -s https://raw.githubusercontent.com/atom/ci/master/build-package.sh | sh'
 
 git:
   depth: 10
