@@ -43,13 +43,13 @@ describe('cargo', () => {
           const defaultTarget = settings[0]; // default MUST be first
           expect(defaultTarget.name).toBe('Cargo: build (debug)');
           expect(defaultTarget.exec).toBe('/this/is/just/a/dummy/path/cargo');
-          expect(defaultTarget.args).toEqual([ 'build' ]);
+          expect(defaultTarget.argsCfg).toEqual([ 'build' ]);
           expect(defaultTarget.sh).toBe(false);
 
           const target = settings.find(setting => setting.name === 'Cargo: test');
           expect(target.name).toBe('Cargo: test');
           expect(target.exec).toBe('/this/is/just/a/dummy/path/cargo');
-          expect(target.args).toEqual([ 'test' ]);
+          expect(target.argsCfg).toEqual([ 'test' ]);
           expect(target.sh).toBe(false);
         });
       });
