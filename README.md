@@ -6,8 +6,9 @@
 Uses [Atom Build](https://github.com/noseglid/atom-build) to build Rust projects by means of Cargo in the Atom editor.
 
 Required packages:
-[atom-build](https://github.com/noseglid/atom-build) to run Cargo commands.
-[linter](https://atom.io/packages/linter) to display compiler messages.
+
+- [atom-build](https://github.com/noseglid/atom-build) to run Cargo commands.
+- [linter](https://atom.io/packages/linter) to display compiler messages.
 
 ## Features
 
