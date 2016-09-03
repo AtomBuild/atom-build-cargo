@@ -17,4 +17,4 @@ Required packages:
 - Supports multi-crate projects (including Cargo workspaces).
 - Displays compiler messages and panics in a handy way.
 
-![Screencast](http://g.recordit.co/ZK2iCsz7C6.gif)
+![Screencast](https://cloud.githubusercontent.com/assets/2101250/18028622/8bac6cf2-6c8c-11e6-9d3a-06258f829246.gif)
