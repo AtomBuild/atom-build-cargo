@@ -1,4 +1,4 @@
-# Cargo runner (Rust) for Atom
+# Cargo (Rust) integration for Atom
 
 [![Build Status](https://img.shields.io/travis/AtomBuild/atom-build-cargo/master.svg?style=flat-square)](https://travis-ci.org/AtomBuild/atom-build-cargo)
 [![Gitter chat](https://badges.gitter.im/noseglid/atom-build.svg?style=flat-square)](https://gitter.im/noseglid/atom-build)
